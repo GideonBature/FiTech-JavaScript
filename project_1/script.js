@@ -38,6 +38,11 @@ increaseBtn.addEventListener('click', function(){
 // add event listener to decrease button
 decreaseBtn.addEventListener('click', function() {
     // count--, count -= 1, count = count - 1
+    // count--;
+    // value.textContent = count;
+    if (count === 0) {
+        return;
+    }
     count--;
     value.textContent = count;
 })
