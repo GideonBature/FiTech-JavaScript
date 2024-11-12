@@ -23,7 +23,7 @@ console.log(typeof(count));
 console.log(count);
 
 // add event listener to reset button
-resetBtn.addEventListener('click', function() {
+resetBtn.addEventListener('click', () => {
     count = 0;
     value.textContent = count;
 })
